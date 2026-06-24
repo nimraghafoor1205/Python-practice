@@ -1,0 +1,23 @@
+        #   switch statmemnt
+# input a number from the user and display day of a week
+# for example if user enter 1 then display monday
+    
+day = int(input("Enter day number: "))
+match day:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case 3:
+        print("Wednesday")
+    case 4:
+        print("Thursday")
+    case 5:
+        print("Friday")
+
+    case 6:
+        print("saturday")
+    case 7:
+        print("Sunday")
+    case _:
+        print("Invalid Day")
