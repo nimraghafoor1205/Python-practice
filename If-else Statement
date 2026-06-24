@@ -1,0 +1,8 @@
+#   Else Statment
+# Enter a number if it is postive then print postive number if it is negtive then print negtive number
+number = int(input("Enter a number: "))
+
+if number >= 0:
+    print("Positive Number")
+else:
+    print("Negative Number")
