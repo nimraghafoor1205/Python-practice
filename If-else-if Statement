@@ -1,0 +1,18 @@
+# Take marks as input from the user.
+
+# 90 or above → A Grade
+# 80 to 89 → B Grade
+# 70 to 79 → C Grade
+# Otherwise → Fail
+
+marks=int(input("Enter marks"))
+print(marks)
+ 
+if marks>90: 
+     print("A grade")
+elif marks>80:
+     print("B grade")
+elif marks>70:
+     print("C grade")
+else:
+     print("Fail")
