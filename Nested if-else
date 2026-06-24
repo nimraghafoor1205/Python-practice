@@ -1,0 +1,12 @@
+      # Nested if-else
+
+age = int(input("Enter your age: "))
+id_card = input("Do you have an ID card? (yes/no): ")
+
+if age >= 18:
+    if id_card == "yes":
+        print("Entry is allowed.")
+    else:
+        print("ID card is required.")
+else:
+    print("You are not eligible for entry.")
