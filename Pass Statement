@@ -1,0 +1,7 @@
+# pass statent 
+#   which meansa that program can pass from here if there is an error.in the situation if you want to write code later.
+
+for i in range(1, 11):
+    if i==3:
+     pass
+print(i)
