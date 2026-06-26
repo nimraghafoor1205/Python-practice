@@ -1,0 +1,5 @@
+# input a num from the user of print a table of that number
+
+num=int(input("Enter a num"))
+for i in range(1,11):
+    print(f"{num} * {i} ={num*i}"  )
